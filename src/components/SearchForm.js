@@ -28,6 +28,9 @@ const StyledSearchForm = styled.form`
       font-size: 20px;
     }
   }
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 const SearchForm = () => {
